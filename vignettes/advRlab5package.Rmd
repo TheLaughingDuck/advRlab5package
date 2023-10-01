@@ -1,0 +1,33 @@
+---
+title: "advRlab5package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{advRlab5package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(advRlab5package)
+```
+
+
+# This package
+Introduction to the purpose of this package.
+
+
+# Function 1
+Explanation of the purpose of this function.
+
+```{r}
+# Example usage of function 1
+```
+
+
