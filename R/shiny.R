@@ -21,7 +21,7 @@ server <- function(input, output) {
     
     # Define the API endpoint and API key
     api_url <- "https://the-one-api.dev/v2/movie"
-    api_key <- "GBwKnNGIpaO26KR3LNlc"
+    api_key <- ""
     
     # Set up headers with API key
     headers <- add_headers("Authorization" = paste("Bearer", api_key))
